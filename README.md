@@ -47,8 +47,13 @@ Or if you which you can use predefined boostrap const color
 ## Installing 
 
 ```bash
-go get -u github.com/sunraylab/rgb@latest
+go get -u github.com/sunraylab/rgb/v2
 ```
+
+## Change Log
+
+- v1.0.0: initial version
+- v2.0.0: added some raw colors, renaming some func to make it more clear and inline with go naming guidelines
 
 ## Licence
 

@@ -10,7 +10,7 @@ func TestRGB(t *testing.T) {
 	var r, g, b, a uint8
 	var str string
 
-	col1 := NewRGB(10, 100, 255)
+	col1 := MakeRGB(10, 100, 255)
 	r, g, b = col1.RGB()
 	if r != 10 || g != 100 || b != 255 {
 		t.Errorf("RGB fails")
@@ -24,7 +24,7 @@ func TestRGB(t *testing.T) {
 		t.Errorf("String fails")
 	}
 
-	col2 := NewRGBA(10, 100, 255, 100)
+	col2 := MakeRGBA(10, 100, 255, 100)
 	r, g, b = col2.RGB()
 	if r != 10 || g != 100 || b != 255 {
 		t.Errorf("RGB fails")

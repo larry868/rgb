@@ -13,15 +13,15 @@ func ExampleColor_RGB() {
 }
 
 func ExampleColor_Lighten() {
-	lightblue := NewRGB(13, 110, 253).Lighten(0.5)
+	lightblue := MakeRGB(13, 110, 253).Lighten(0.5)
 	r, g, b := lightblue.RGB()
 	fmt.Printf("lightblue R=%d G=%d B=%d\n", r, g, b)
 	// Output: lightblue R=134 G=182 B=254
 }
 
 func ExampleColor_Hexa() {
-	blue := NewRGB(13, 110, 253)
-	transparentblue := blue.Alpha(0.8)
+	blue := MakeRGB(13, 110, 253)
+	transparentblue := blue.Opacify(0.8)
 	fmt.Printf("blue=%s, transparent blue=%s\n", blue.Hexa(), transparentblue.Hexa())
 	// Output: blue=#0D6EFDFF, transparent blue=#0D6EFDCC
 }
