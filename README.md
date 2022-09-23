@@ -54,6 +54,7 @@ go get -u github.com/sunraylab/rgb/v2
 
 - v1.0.0: initial version
 - v2.0.0: added some raw colors, renaming some func to make it more clear and inline with go naming guidelines
+- v2.0.1: fix bug in basic color
 
 ## Licence
 

@@ -17,13 +17,17 @@ import (
 
 // Basic RGB Colors
 const (
-	Red   = Color(0xff0000ff)
-	Blue  = Color(0x00ff00ff)
-	Green = Color(0x0000ffff)
-	Black = Color(0x000000ff)
-	Gray  = Color(0x808080ff)
-	White = Color(0xffffffff)
-	None  = Color(0x00000000)
+	Red     = Color(0xff0000ff)
+	Green   = Color(0x00ff00ff)
+	Blue    = Color(0x0000ffff)
+	Yellow  = Color(0xffff00ff)
+	Cyan    = Color(0x00ffffff)
+	Magenta = Color(0xff00ffff)
+	Black   = Color(0x000000ff)
+	Silver  = Color(0xc0c0c0ff)
+	Gray    = Color(0x808080ff)
+	White   = Color(0xffffffff)
+	None    = Color(0x00000000)
 )
 
 // Color is a 32bits color: 24bits for the Color color itself and 8 bits for the alpha channel (transparency/opacity)
