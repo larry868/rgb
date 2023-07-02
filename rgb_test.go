@@ -1,4 +1,4 @@
-// Copyright 2022 by lolorenzo77. All rights reserved.
+// Copyright 2022 by lolorenzo777. All rights reserved.
 // Use of this source code is governed by MIT licence that can be found in the LICENSE file.
 
 package rgb
@@ -41,7 +41,7 @@ func TestRGB(t *testing.T) {
 	testset := []string{"#A", "#ABC", "#ABCD", "#ABCDEF", "#ABCDEF09"}
 	testwant := []string{"#AAAAAAFF", "#AABBCCFF", "#AABBCCDD", "#ABCDEFFF", "#ABCDEF09"}
 	for i, val := range testset {
-		col := NewHexa(val)
+		col := ParseHexa(val)
 		if col == nil || col.Hexa() != testwant[i] {
 			t.Errorf("Newhexa fails %q", val)
 		}

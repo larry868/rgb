@@ -15,13 +15,13 @@ There is 4 ways to initialize a new RGBA color
 blue1 := rgb.Color(0x0d6efdff)
 
 // 2nd way: calling the NewRGB factory
-blue2 := rgb.NewRGB(13,110,253)
+blue2 := rgb.MakeRGB(13,110,253)
 
 // 3rd way: calling the NewRGBA factory
-blue3 := rgb.NewRGBA(13,110,253,255)
+blue3 := rgb.MakeRGBA(13,110,253,255)
 
 // 4th way: calling the NewHexa factory
-blue4 := rgb.NewHexa("#0d6efdff")
+blue4 := rgb.ParseHexa("#0d6efdff")
 if blue4 == nil {
     return errors.New("fail parsing the hexa color value")
 }
@@ -49,14 +49,12 @@ Or if you which you can use predefined boostrap const color
 ## Installing 
 
 ```bash
-go get -u github.com/sunraylab/rgb/v2
+go get -u github.com/lolorenzo777/rgb
 ```
 
 ## Change Log
 
-- v1.0.0: initial version
-- v2.0.0: added some raw colors, renaming some func to make it more clear and inline with go naming guidelines
-- v2.0.1: fix bug in basic color
+- v1.0.0: initial version 
 
 ## Licence
 

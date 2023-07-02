@@ -44,7 +44,7 @@ func MakeRGBA(R uint8, G uint8, B uint8, A uint8) Color {
 	return Color(((uint32(R)<<8+uint32(G))<<8+uint32(B))<<8 + uint32(A))
 }
 
-// NewHexa create a 24bits color with 100% opacity.
+// ParseHexa create a 24bits color with 100% opacity.
 //
 // Accepted string formats:
 //
@@ -56,7 +56,7 @@ func MakeRGBA(R uint8, G uint8, B uint8, A uint8) Color {
 //	'#ABCDEF88' means a color with R="0xAB", G="0xCD", B="0xEF", and an opacity of "0x88"
 //
 // return nil if unable to convert the string in a valid color
-func NewHexa(hex string) *Color {
+func ParseHexa(hex string) *Color {
 	l := len(hex)
 	if l > 0 && string(hex[0]) == "#" {
 		hex = hex[1:]

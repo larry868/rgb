@@ -1,3 +1,3 @@
-module github.com/sunraylab/rgb/v2
+module github.com/lolorenzo777/rgb
 
-go 1.18
+go 1.20

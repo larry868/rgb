@@ -7,7 +7,7 @@ Colors are 32bits types based on package "github.com/sunraylab/rgb"
 */
 package bootstrapcolor
 
-import "github.com/sunraylab/rgb/v2"
+import "github.com/lolorenzo777/rgb"
 
 // https://getbootstrap.com/docs/5.2/customize/color/
 const (
