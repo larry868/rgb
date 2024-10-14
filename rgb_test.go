@@ -1,4 +1,4 @@
-// Copyright 2022 by lolorenzo777. All rights reserved.
+// Copyright 2022-2024 by larry868. All rights reserved.
 // Use of this source code is governed by MIT licence that can be found in the LICENSE file.
 
 package rgb

@@ -1,3 +1,3 @@
-module github.com/lolorenzo777/rgb
+module github.com/larry868/rgb
 
-go 1.20
+go 1.23

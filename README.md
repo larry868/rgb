@@ -4,7 +4,7 @@ Package RGB provides a RGBA color type, which is a uint32, with a set of methods
 
 RGB type is a 32bits color: 24bits for the RGB color itself and 8 bits for the alpha channel (transparency/opacity)
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/lolorenzo777/rgb/v2.svg)](https://pkg.go.dev/github.com/lolorenzo777/rgb/v2)
+[![Go Reference](https://pkg.go.dev/badge/github.com/larry868/rgb/v2.svg)](https://pkg.go.dev/github.com/larry868/rgb/v2)
 
 ## Usage
 
@@ -49,11 +49,12 @@ Or if you which you can use predefined boostrap const color
 ## Installing 
 
 ```bash
-go get -u github.com/lolorenzo777/rgb
+go get -u github.com/larry868/rgb
 ```
 
 ## Change Log
 
+- v1.1.0: migration to larry868 and go 1.23
 - v1.0.0: initial version 
 
 ## Licence
